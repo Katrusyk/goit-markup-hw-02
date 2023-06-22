@@ -20,7 +20,7 @@
 .page {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white);
-  color: var(--navyblue);
+  color: var(--slate)
 }
 
 /* HEADER */
@@ -29,7 +29,7 @@
 }
 
 .header-logo {
-  color: var(--navyblue);
+  color: var(--iris);
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -38,8 +38,8 @@
   text-transform: uppercase;
 }
 
-.logo-blu {
-  color: var(--iris);
+.logo-other {
+color: var(--navyblue);
 }
 
 .header-list {
@@ -48,7 +48,8 @@
 .header-item {
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 
 .header-item:hover,
@@ -57,6 +58,7 @@
 }
 
 .contacts {
+  font-style: normal;
 }
 
 .contacts-list {
@@ -76,6 +78,10 @@
 
 .order {
   background-color: var(--navyblue);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .order-title {
@@ -103,6 +109,9 @@
 }
 
 .benefits-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
 .benefits-list {
@@ -125,6 +134,10 @@
 }
 
 .working {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .title {
@@ -154,12 +167,17 @@
 
 .team {
   background-color: var(--cloud);
+    font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      letter-spacing: 0.02em;
 }
 
 .team-list {
 }
 
 .team-item {
+  background-color: var(--white);
 }
 
 .team-img {
@@ -196,16 +214,20 @@
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  color: var(--white);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-white{
+  color: var(--cloud);
 }
 
 .exhortation {
-  color: var(--white);
+  color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
